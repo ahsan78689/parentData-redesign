@@ -5,6 +5,15 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "Calluna";
+  src: url("font/Calluna-Regular.woff2") format("woff2"),
+    url("font/Calluna-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   background-color: #fefcee;
 }
