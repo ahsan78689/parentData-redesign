@@ -15,7 +15,13 @@
 }
 
 body {
+  font-family: 'DM Sans', sans-serif;
   background-color: #fefcee;
+  color: #282828;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Calluna", serif;
 }
 
 .container {
@@ -83,6 +89,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.3;
+  color: #282828;
   letter-spacing: 0.0125em;
   max-width: 676px;
 }
@@ -651,6 +658,7 @@ body {
 }
 
 .features-feature p {
+  font-family: "Calluna", serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
@@ -801,6 +809,7 @@ body {
     p {
       color: #282828;
       font-size: 16px;
+      font-style: italic;
       line-height: 1.3;
       letter-spacing: 0.2px;
       max-width: 300px;
@@ -1218,12 +1227,6 @@ body {
   background-color: #FEED9E;
 }
 
-.team__member:nth-child(1) h3 {
-  max-width: unset;
-  margin-bottom: 15px;
-  transition: max-width 0.5s ease-in-out;
-}
-
 @media (max-width: 445px) {
   .team__member:nth-child(1) h3 {
     margin-bottom: 5px;
@@ -1291,11 +1294,10 @@ body {
 .team__member h3 {
   color: #282828;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 30px;
+  line-height: 1.2;
   letter-spacing: 0.375px;
   margin-bottom: 7px;
-  max-width: 121px;
-  width: 100%;
   transition: max-width 0.5s ease-in-out;
 }
 
